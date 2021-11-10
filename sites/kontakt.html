@@ -1,0 +1,28 @@
+<!--<form method="post" action="./php/main.php">-->
+<div id="form">
+	<style>
+		input[name="name"] {
+			border-color: orange;
+		}
+	</style>
+	<!--style może zmienić wygląd danego elementu na inny kolor lub danie obramowania-->
+	<p><input type="text" name="name" placeholder="Podaj swoje imię"/></p>
+	<p><input type="text" name="lastname" placeholder="Podaj swoje nazwisko"/></p>
+	<p><input type="email" name="email" placeholder="Podaj swój email"/></p>
+	<p><textarea name="content" placeholder="Wpisz treść"></textarea></p>
+	<!--input jest używany do dowiedzenia się o użytkownikowi jak ma na imie ile ma lat itd.-->
+	<fieldset>
+		<legend>Twoja płeć</legend>
+		<p><input type="radio" name="sex" value="k"/><span>Kobieta</span></p>
+		<p><input type="radio" name="sex" value="m"/><span>Mężczyzna</span></p>
+		<p><input type="radio" name="sex" value="n" checked="checked"/><span>Nieokreślona</span></p>
+	</fieldset>
+	<!--fieldseta używamy gdy chcemy się dowiedzieć o użytkownikowi czy jest mężczyzną czy kobietą-->
+	<button>Wyślij zapytanie</button>
+	<!--przez button możemy wysłać informacje o użytkownikowu do bazy danych-->
+</div>
+<div id="output">
+
+</div>
+
+<!--</form>-->
