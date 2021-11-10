@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--o znaczniku DOCTYPE html nie wolno zapomnieć gdyby nie on cała strona by nie działała-->
+<html lang="pl">
+	<!--używamy tego żeby strona wiedziała w jakim języku powinna to czytać-->
+	<head>
+		<meta charset="utf-8"/>
+			<!--używa sie tego żeby strona internetowa mogła czytać wszystkie znaki-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<!--można tego użyć żeby strona była responsywna z innymi urządzeniami np.telefon-->
+		<meta name="keywords" content="podstawa, strona podstawowa, nauka"/>
+		    <!--używa się tego żeby strona była wyświetlona na internecie jakby ktoś napisał 
+			strona podstawowa to wyświetli nam się nasza strona internetowa-->
+		<meta name="description" content="To jest witryna przypominająca tworzenie stron WWW"/>
+			<!--to pokaże opis naszej strony internetowej na internecie-->
+		<title>Strona przypomnienie</title>
+		<!--dzięki title możemy nazwać strone jak się chce-->
+		<link rel="stylesheet" href="./css/styl.css"/>
+		<!--przez link rel możemy załadować plik css który odpowiada za wygląd strony internetowej-->
+		<script src="./js/main.js"></script>
+		<!--dzięki script src możemy załadować skrypt na stronie-->
+	</head>
+	<!--znacznik head jest jednym z najważniejszych znaczników w stronie internetowej nie wolno o nim zapomnieć 
+		-->
+	<body>
+		<!--znacznik body również jest jednym z najważniejszych znaczników na stronie internetowej gdyby nie on nie 
+		strona internetowa by nie działała-->
+		<div id="main">
+			<div id="logo"></div>
+			<div id="title"></div>
+			<div id="login"></div>
+
+			<div id="nav">
+			
+			</div>
+				
+			<div id="submenu">
+							
+				<div class="button" data-link="onas"><p>O nas</p></div>
+				<div class="button" data-link="galeria"><p>Galeria</p></div>
+				<div class="button" data-link="kontakt"><p>Kontakt</p></div>
+			</div>
+			<!--dzięki klasie button możemy zrobić przycisk który może nas przenieść na inną podstrone-->
+			
+			<div id="content">
+				<div id="col1">
+				<p>To jest akapit</p>
+				</div>
+				<div id="col2">
+				<p>To jest akapit</p>
+				</div>
+			</div>
+			
+			<div id="advert">
+				<p>To jest reklama</p>
+			</div>
+			<div id="foot">
+			
+			</div>
+		</div>
+		<!--divy służą do rozmieszczenia miejsc na stronie internetowej -->
+		
+		<script>
+			addEvents()
+			setSite()
+		</script>
+		<!--dzięki temu skrypty mogą działać na stronie internetowej-->
+		
+	</body>
+</html>
